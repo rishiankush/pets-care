@@ -6,7 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
 import Header from './common/header';
 import Footer from './common/footer';
-
+import Banner from './common/banner';
+import Breadcrumb from './common/breadcrumb';
+import MainContent from './common/mainContent';
+import HappyClients from './common/happyClientsSection';
 
 class AppIndex extends Component {
   constructor(props) {
@@ -19,6 +22,10 @@ class AppIndex extends Component {
     return (
         <div>
             <Header />
+            <Banner />
+            <Breadcrumb />
+            <MainContent />
+            <HappyClients />
             <Footer />
         </div>
     );
