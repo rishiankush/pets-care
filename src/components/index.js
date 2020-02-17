@@ -10,6 +10,8 @@ import Banner from './common/banner';
 import Breadcrumb from './common/breadcrumb';
 import MainContent from './common/mainContent';
 import HappyClients from './common/happyClientsSection';
+import HomeAbout from './common/HomeAbout';
+import breadcrumb from './common/breadcrumb';
 
 class AppIndex extends Component {
   constructor(props) {
@@ -21,13 +23,11 @@ class AppIndex extends Component {
   render() {
     return (
         <div>
-            <Header />
-            <Banner />
-            <Breadcrumb />
-            <MainContent />
-            <HappyClients />
-            <Footer />
-        </div>
+              <Header />
+              <Banner />
+              <HomeAbout />
+              <Footer />
+            </div>
     );
         
   }

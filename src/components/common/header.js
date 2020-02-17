@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faclock } from '@fortawesome/fontawesome-svg-core';
 
 class Header extends Component {
   constructor(props) {
@@ -38,7 +40,8 @@ class Header extends Component {
                     <div className="contact-info">
                         <div className="box-icon-1">
                             <div className="icon">
-                                <div className="fa fa-clock-o"></div>
+                                {/* <div className="fa fa-clock-o"></div> */}
+                                <FontAwesomeIcon icon="clock" />
                             </div>
                             <div className="body-content">
                                 <div className="heading">Open Hours :</div>
@@ -75,20 +78,20 @@ class Header extends Component {
                                     HOME
                                     </a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="index.html">Pets Care</a>
-                                        <a className="dropdown-item" href="pets-shop.html">Pets Shop</a>
+                                        <a className="dropdown-item" href="#">Pets Care</a>
+                                        <a className="dropdown-item" href="#">Pets Shop</a>
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="about-us.html">ABOUT US</a>
+                                    <a className="nav-link" href="#">ABOUT US</a>
                                 </li>
                                 <li className="nav-item dropdown dmenu">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     SERVICES
                                     </a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="services.html">Services</a>
-                                        <a className="dropdown-item" href="services-single.html">Single Services</a>
+                                        <a className="dropdown-item" href="#">Services</a>
+                                        <a className="dropdown-item" href="#">Single Services</a>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown dmenu active">
@@ -96,24 +99,24 @@ class Header extends Component {
                                     PAGES
                                     </a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="page-faq.html">Faqs</a>
-                                        <a className="dropdown-item" href="page-our-staff.html">Our Staff</a>
-                                        <a className="dropdown-item" href="page-single-staff.html">Single Staff</a>
-                                        <a className="dropdown-item" href="page-appointment-form.html">Appointment Form</a>
-                                        <a className="dropdown-item" href="page-pricing-tables.html">Pricing Tables</a>
-                                        <a className="dropdown-item" href="page-404.html">404 Page</a>
+                                        <a className="dropdown-item" href="#">Faqs</a>
+                                        <a className="dropdown-item" href="#">Our Staff</a>
+                                        <a className="dropdown-item" href="#">Single Staff</a>
+                                        <a className="dropdown-item" href="#">Appointment Form</a>
+                                        <a className="dropdown-item" href="#">Pricing Tables</a>
+                                        <a className="dropdown-item" href="#">404 Page</a>
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="gallery.html">GALLERY</a>
+                                    <a className="nav-link" href="#">GALLERY</a>
                                 </li>
                                 <li className="nav-item dropdown dmenu">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     BLOG
                                     </a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="blog.html">Blog List</a>
-                                        <a className="dropdown-item" href="blog-single.html">Single Blog</a>
+                                        <a className="dropdown-item" href="#">Blog List</a>
+                                        <a className="dropdown-item" href="#">Single Blog</a>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown dmenu">
@@ -121,13 +124,13 @@ class Header extends Component {
                                     SHOP
                                     </a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="shop.html">Shop</a>
-                                        <a className="dropdown-item" href="shop-list.html">Product List</a>
-                                        <a className="dropdown-item" href="shop-single.html">Single Product</a>
+                                        <a className="dropdown-item" href="#">Shop</a>
+                                        <a className="dropdown-item" href="#">Product List</a>
+                                        <a className="dropdown-item" href="#">Single Product</a>
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">CONTACT</a>
+                                    <a className="nav-link" href="#">CONTACT</a>
                                 </li>
 
                             </ul>
