@@ -8,6 +8,7 @@ import HomeAbout from './common/HomeAbout';
 import FunFact from './common/FunFact';
 import OurServices from './common/OurServices';
 import DoPets from './common/DoPets';
+import hMeetVeterinary from './common/hMeetVeterinary';
 
 class AppIndex extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class AppIndex extends Component {
               <FunFact />
               <OurServices />
               <DoPets />
+              <hMeetVeterinary />
               <Footer />
             </div>
     );

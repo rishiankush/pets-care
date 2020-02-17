@@ -11,7 +11,7 @@ class Footer extends Component {
 
   render() {
     return (
-        <div className="footer bg-overlay-secondary" data-background={require("../../assets/images/dummy-img-1920x900-3.jpg")}>
+        <div className="footer bg-overlay-secondary" id="Footer">
             <div className="content-wrap">
                 <div className="container">
                     
