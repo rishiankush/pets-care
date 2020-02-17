@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
+import ImgVideo from '../../assets/images/home01.jpg';
 
 class OurServices extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ render() {
 								<div className="col-sm-8 col-md-8">
 									<div className="img-video">
 										<a href="https://www.youtube.com/watch?v=vNDrLjOmUY4" className="popup-youtube play-video"><i className="fa fa-play fa-2x"></i></a>
-										<img src="images/home01.jpg" alt="" className="shadow img-fluid" />
+										<img src={ImgVideo} alt="" className="shadow img-fluid" />
 										<div className="ripple"></div>
 									</div>
 								</div>
