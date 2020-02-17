@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-// import '../../assets/css/vendor/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
+import HomeSlide1 from '../../assets/images/home01.jpg';
+import HomeSlide2 from '../../assets/images/home02.jpg';
+import HomeSlide3 from '../../assets/images/home03.jpg';
 
 class Banner extends Component {
   constructor(props) {
@@ -12,29 +14,34 @@ class Banner extends Component {
 
   render() {
     return (
+      <section id="Headercarousel">
       <Carousel>
         <Carousel.Item>
-          <img src={require("../../assets/images/dummy-img-1920x900.jpg")} alt="Slider" />
+          <img src={HomeSlide1} alt="Slider" width="1920" height="500" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1 className="caption-heading text-primary">We Provide The Best<br />Care For Your Pets</h1>
+            <p className="text-black">The best pets clinic at melbourne, more than 20.000+ customers happy.</p>
+            <a href="#" className="btn btn-primary">More About Us</a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={require("../../assets/images/dummy-img-1920x900-2.jpg")} alt="Slider" />
+        <img src={HomeSlide2} alt="Slider" width="1920" height="500" />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h1 class="caption-heading">We Provide The Best<br />Care For Your Pets</h1>
+              <p class="">The best pets clinic at melbourne, more than 20.000+ customers happy.</p>
+              <a href="#" class="btn btn-primary">More About Us</a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={require("../../assets/images/dummy-img-1920x900-3.jpg")} alt="Slider" />
+        <img src={HomeSlide3} alt="Slider" width="1920" height="500" />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h1 className="caption-heading text-primary">We Provide The Best<br />Care For Your Pets</h1>
+            <p className="text-black">The best pets clinic at melbourne, more than 20.000+ customers happy.</p>
+            <a href="#" className="btn btn-primary">More About Us</a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </section>
     );
         
   }
