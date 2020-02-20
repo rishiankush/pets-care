@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*******************************************
  *******************************************
@@ -18,7 +19,7 @@
 .c1, .eco--sec--title h1 span,
 .eco--sec--title--white h1 span, .eco--arrow--style--2 .eco--prev,
 .eco--arrow--style--2 .eco--next, .eco--home--area--1 .eco--home--content--1 a i, .eco--home--content--2 .eco--video--button a, .eco--promo--list--1 li i, .eco--review--slider--1::before, .eco--review--slider--2 .eco--single--slide .eco--inner .eco--quote, .eco--single--feature--1 span.eco--feature--left, .eco--video--button--5:hover a, .eco--video--button--5 i, .eco--single--faq h4::before, .eco--more--faq, .eco--more--faq:hover, .single_portfolio .inner .h3:hover {
-  color: #dfb479;
+  color: #485ff8;
 }
 
 .c1-bg, .eco--btn, .eco--arrow--style--2 .eco--prev:hover,
@@ -27,7 +28,7 @@
 .eoc--home--form button[type="submit"],
 .eoc--home--form button button, .eco--review--slider--1 .slick-arrow:hover, .eco--specification--list--1 li .eco--title, .slicknav_btn,
 .slicknav_nav {
-  background-color: #dfb479;
+  background-color: #485ff8;
 }
 
 .c1-bo, .eco--btn, .eoc--home--form input:active, .eoc--home--form input:focus,
@@ -35,7 +36,7 @@
 .eoc--home--form button:focus, .eco--video--btn--1::after,
 .eco--video--btn--2::after,
 .eco--video--btn--3::after, .eco--video--button--5:hover i, .eco--newsletter--1 .eco--inner input {
-  border-color: #dfb479 !important;
+  border-color: #485ff8 !important;
 }
 
 .c2 {

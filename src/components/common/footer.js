@@ -11,92 +11,55 @@ class Footer extends Component {
 
   render() {
     return (
-        <div className="footer bg-overlay-secondary" id="Footer">
-            <div className="content-wrap">
-                <div className="container">
-                    
-                    <div className="row">
-                        <div className="col-sm-6 col-md-4">
-                            <div className="footer-item">
-                                <img src={require("../../assets/images/logo_w.png")} alt="logo bottom" className="logo-bottom" />
-                                <div className="spacer-20"></div>
-                                <p>We are pets center at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
-                                <div className="spacer-20"></div>
-                                <img src={require("../../assets/images/payment.png")} alt="" />
-                            </div>
-                        </div>
-
-                        <div className="col-sm-6 col-md-4">
-                            <div className="footer-item">
-                                <div className="footer-title">
-                                    Opening Hours
-                                </div>
-                                <p>Our support available to help you 24 hours a day. We provide our best.</p>
-                                <ul className="list">
-                                    <li>
-                                        Mon - Fri : 08.00 am - 20.00 pm
-                                    </li>
-                                    <li>
-                                        Saturday : 09.00 am - 20.00 pm
-                                    </li>
-                                    <li>
-                                        Sunday :  We Are Closed
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                        
-                        <div className="col-sm-6 col-md-4">
-                            <div className="footer-item">
-                                <div className="footer-title">
-                                    Contact Info
-                                </div>
-                                <p>Lit sed The Best in dolor sit amet consectetur</p>
-                                <ul className="list-info">
-                                    <li>
-                                        <div className="info-icon text-primary">
-                                            <span className="fa fa-map-marker"></span>
-                                        </div>
-                                        <div className="info-text">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</div> 
-                                    </li>
-                                    <li>
-                                        <div className="info-icon text-primary">
-                                            <span className="fa fa-phone"></span>
-                                        </div>
-                                        <div className="info-text">(0761) 654-123987</div>
-                                    </li>
-                                    <li>
-                                        <div className="info-icon text-primary">
-                                            <span className="fa fa-envelope"></span>
-                                        </div>
-                                        <div className="info-text">mail@hellopets.com</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+        <div class="eco--footer eco--pd--100">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="widget footer_widget">
+                    <div class="eco--inner">
+                        <p>Admiration we surrounded possession frequently Remarkably did increasing occasional too its difficulty far especially. You day real less till dear read. Considered use dispatched.</p>
                     </div>
                 </div>
             </div>
-            
-            <div className="fcopy">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-6 col-md-6">
-                            <p className="ftex">&copy; 2019 Your Company. All Rights Reserved. Designed By <span className="text-primary">Rometheme</span></p> 
-                        </div>
-                        <div className="col-sm-6 col-md-6">
-                            <div className="sosmed-icon d-inline-flex float-right">
-                                <a href="#"><i className="fa fa-facebook"></i></a> 
-                                <a href="#"><i className="fa fa-twitter"></i></a> 
-                                <a href="#"><i className="fa fa-instagram"></i></a> 
-                                <a href="#"><i className="fa fa-pinterest"></i></a> 
-                            </div>
-                        </div>
+            <div class="col-sm-3">
+                <div class="widget footer_widget">
+                   <div class="eco--inner">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">Dhrubok</a></li>
+                            <li><a href="#">Huuudai</a></li>
+                            <li><a href="#">Ux-theme</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="widget footer_widget">
+                    <div class="eco--inner">
+                        <h4>Important</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="widget footer_widget">
+                    <div class="eco--inner">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>phone: <a href="tel: +313-450-4322">+313-450-4322</a></li>
+                            <li>Email: <a href="mailto: eco@sitename.com">eco@sitename.com</a></li>
+                            <li>Ny, USA</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
     );
         
   }

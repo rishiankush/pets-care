@@ -1,139 +1,119 @@
-
-h1, h2, .banner-page .title-page, h3, h4, h5 {
-    font-family: "Bitter", serif;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 20px;
+a
+{
+cursor: pointer;
 }
 
-.text-primary {
-    color: #F7941D !important;
+#clientTestimonial
+{
+    background: url('../img/review-bg.jpg') no-repeat;
 }
 
-body, button, input, select, textarea {
-    color: #999999;
-    font-family: "arvo", serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.5;
+#VoiceControl
+{
+    background: url('../img/video-bg.jpg') no-repeat;
 }
 
-
-.header-1 .navbar-main .btn-secondary {
-    background-color: #3C2800;
+.productsTabsArea .tab-content {
+    background-color:#fafafa;
+    border: 1px solid#e6e6e6;
+    padding: 30px;
 }
 
+.productsTabsArea .tab-content .Productinfolist {
+    padding: 0 0 0 20px;
+}
 
-.header-1 .navbar-main  .btn-secondary {
-    font-size: 14px;
-    color: #ffffff;
-    padding: 13px 40px;
-    border: 0;
-    min-width: 150px;
+.reviews .media.media-review img {
+    border-radius: 90px;
+    border: solid 2px #dfb479;
+}
+
+.productsTabsArea .nav.nav-tabs a {
+    border: solid 1px#ccc;
     border-radius: 0;
+    color: #000;
 }
 
-#Headercarousel .carousel-item
+.productsTabsArea .nav.nav-tabs a.nav-item.nav-link.active {
+    background:#dfb479;
+    color: #fff;
+    font-weight: bold;
+}
+
+.eco--pricing--wrap--1 .eco--pricing--main--wrap ul.eco--single--pricing--1.eco--pricing--overview li:first-child {
+    height: 384px;
+}
+
+.productsTabsArea .tab-content h4 {
+    font-weight: bold;
+}
+
+
+#SingleProduct .media-detail {
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+#SingleProduct .productSmallMedia .col {
+    border: solid 1px #ccc;
+}
+
+#SingleProduct .productSmallMedia {
+    margin: 0 0 30px 0;
+}
+
+#SingleProduct .title-heading {
+    font-size: 50px;
+    color: #dfb479;
+    font-weight: bold;
+    margin: 0;
+}
+
+#SingleProduct .price {
+    font-size: 30px;
+}
+
+#LeaveComments {
+    margin: 30px 0 0 0;
+}
+
+#LeaveComments .title-heading {
+    margin: 20px 0 20px 0;
+}
+
+.productsTabsArea .form-comment .form-control{
+    height: 45px;
+    background-color: #f6f6f6;
+    border: 1px solid#eee;
+    border-radius: 3px;
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+#AllpagesHBanner {
+    background: url('../img/video-bg.jpg') no-repeat;
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+#AllpagesHBanner h3 {
+    font-size: 50px;
+}
+
+.bg-breadcrumb 
 {
-    height: 700px;
+    background-color: #e9ecef;  
 }
 
-#Headercarousel .carousel-item .carousel-caption
-{
-    text-align: left;
-    top: 180px;
-    left: 5%;
-}
-
-#Headercarousel .carousel-caption h1
-{
-font-size: 48px;
-padding: 0;
-margin-bottom: 10px;
-}
-
-
-#Headercarousel .carousel-caption .text-primary {
-    color: 
-    #F7941D !important;
-}
-
-#Headercarousel .carousel-caption .text-black{
-    color: 
-    #222222 !important;
-}
-
-#Headercarousel .carousel-caption .btn, #Headercarousel .carousel-caption .btn-primary{
-    font-size: 14px;
-    color: #ffffff;
-    padding: 13px 40px;
-    border: 0;
-    min-width: 150px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    border-radius: 30px;
-}
-
-#Headercarousel .carousel-caption  .btn-primary {
-    background-color: #F7941D;
-    color: #ffffff;
-}
-
-#Headercarousel .carousel-control-next, .carousel-control-prev
-{
-    width: 5%;
-}
-
-#Headercarousel .carousel-control-next-icon, .carousel-control-prev-icon
-{
-    /* border: solid 1px#ccc;
-    border-radius: 50px; */
-    height: 30px;
-    width: 30px;
-}
-
-
-
-#Headercarousel img
-{
-    width: 100%;
-    height: auto;
-}
-
-#HomeAboutSection
-{
-    background: url('../images/about.jpg') no-repeat;
-}
-
-.section-heading::after {
-    width: 30px;
-    height: 3px;
-    background: #F7941D;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-
-.section-heading.text-primary.no-after.mb-4 {
-    color: #F7941D !important;
-}
-
-
-#FunFact 
-{
-    background: url('../images/statistic_bg.jpg') no-repeat;
-    background-size: 100%;
-}
-
-#dopets
-{
-    background: url('../images/home02.jpg') no-repeat;
-    background-size: 100%;
-}
-
-#Footer
-{
-    background: url('../images/home02.jpg') no-repeat;
-    background-size: 100%;
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: 
+    #e9ecef;
+    border-radius: .25rem;
 }
