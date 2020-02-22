@@ -11,10 +11,6 @@ import UserReviewimg from '../../assets/img/team-1.jpg';
 import UserReviewimg2 from '../../assets/img/team-2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar} from '@fortawesome/free-solid-svg-icons'
-import AddComments from './addComments';
-import AllPagesHbanner from './allPagesHbanner';
-import Breadcrumb from './breadCrumb';
-
 
 class singleProductsc extends Component {
   constructor(props) {
@@ -25,8 +21,6 @@ class singleProductsc extends Component {
   render() {
 return (
 <div>
-<AllPagesHbanner />
-<Breadcrumb />
 <section id="SingleProduct">
     <div className="container">
         <div className="row">
@@ -134,10 +128,6 @@ return (
 					</Tab>
 					</Tabs>
 					</div>
-					</div>
-
-					<div className="col-md-12">
-						<AddComments />
 					</div>
         </div>
     </div>

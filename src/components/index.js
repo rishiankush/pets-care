@@ -30,13 +30,10 @@ class AppIndex extends Component {
       <HeaderBanner />
       <ECods />
       <ECocanHear />
-      {/* <ClientsTestimonial /> */}
       <EcoFeature />
       <Osho />
       <TechnicalDetails />
       <VoiceControl />
-      <ProductsPlans />
-      {/* <ClientsReview /> */}
       <QuestionsAnswers />
       <SubscribeNow />
       <Footer />

@@ -35,10 +35,9 @@ render() {
                         <ul>
                             <li className="current-menu-item"><a onClick={()=>this.props.history.push('/')}>Home</a>
                             </li>
-                            <li><a href="#">Reviews</a></li>
+                            <li><a onClick={()=>this.props.history.push('/shop')}> Shop</a></li>
                             <li><a onClick={()=>this.props.history.push('/singleproduct')}> Products</a></li>
-                            <li><a href="#">Dropdown</a>
-                            </li>
+                            <li><a onClick={()=>this.props.history.push('/blog')}> Blog</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>                </div>

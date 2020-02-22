@@ -7,8 +7,9 @@ import Footer from './common/footer';
 import ShopRoducts from './common/shopRoducts';
 import AllPagesHbanner from './common/allPagesHbanner';
 import BreadCrumb from './common/breadCrumb';
+import Blogird from './common/blogird';
 
-class Shop extends Component {
+class blog extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +22,7 @@ class Shop extends Component {
       <MainHeader />
       <AllPagesHbanner />
       <BreadCrumb />
-      <ShopRoducts />
+      <Blogird />
       <SubscribeNow />
       <Footer />
       </div>
@@ -30,4 +31,4 @@ class Shop extends Component {
   }
 }
 
-export default withRouter(Shop);
+export default withRouter(blog);

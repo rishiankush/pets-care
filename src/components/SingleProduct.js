@@ -5,6 +5,8 @@ import MainHeader from './common/mainHeader';
 import SubscribeNow from './common/SubscribeNow';
 import Footer from './common/footer';
 import SingleProductc from './common/singleProductc';
+import AllPagesHbanner from './common/allPagesHbanner';
+import BreadCrumb from './common/breadCrumb';
 
 class SingleProduct extends Component {
   constructor(props) {
@@ -17,6 +19,8 @@ class SingleProduct extends Component {
     return (
       <div>
       <MainHeader />
+      <AllPagesHbanner />
+      <BreadCrumb />
       <SingleProductc />
       <SubscribeNow />
       <Footer />
